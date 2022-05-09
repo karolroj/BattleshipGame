@@ -27,6 +27,10 @@ namespace WarshipGame
                 BoardActions.PrintPanel(firstPlayerMarks);
 
                 firstPlayer.HasWon = UserActions.ShootAndMark(secondPlayerBoard, firstPlayerMarks, secondPlayerShips);
+                if(firstPlayer.HasWon)
+                {
+                    break;
+                }    
                 Console.WriteLine("Press any key to pass the turn.");
                 Console.ReadKey();
                 Console.Clear();
@@ -38,6 +42,10 @@ namespace WarshipGame
                 BoardActions.PrintPanel(secondPlayerMarks);
 
                 secondPlayer.HasWon = UserActions.ShootAndMark(firstPlayerBoard, secondPlayerMarks, firstPlayerShips);
+                if(secondPlayer.HasWon)
+                {
+                    break;
+                }
                 Console.WriteLine("Press any key to pass the turn.");
                 Console.ReadKey();
                 Console.Clear();
@@ -45,12 +53,12 @@ namespace WarshipGame
 
             if(firstPlayer.HasWon)
             {
-                Console.Write("First player wins!");
+                Console.Write("\nFirst player wins!");
                 Console.ReadKey();
             }
             else
             {
-                Console.WriteLine("Second player wins!");
+                Console.WriteLine("\nSecond player wins!");
                 Console.ReadKey();
             }
         }
