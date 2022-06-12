@@ -1,4 +1,4 @@
-﻿namespace warship.Dictionaries
+﻿namespace WarshipGame.Dictionaries
 {
     public enum ShipType
     {

@@ -1,9 +1,9 @@
 ﻿using System.Text.RegularExpressions;
-using warship.Dictionaries;
-using warship.Models;
-using warship.Utilities;
+using WarshipGame.Dictionaries;
+using WarshipGame.Models;
+using WarshipGame.Utilities;
 
-namespace warship
+namespace WarshipGame
 {
     public static class UserActions
     {

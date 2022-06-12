@@ -1,4 +1,4 @@
-﻿namespace warship.Models
+﻿namespace WarshipGame.Models
 {
     public class User
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace warship
+namespace WarshipGame.Dictionaries
 {
     public enum StateOfCell
     {

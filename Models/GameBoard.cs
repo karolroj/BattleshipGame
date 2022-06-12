@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace warship.Models
+namespace WarshipGame.Models
 {
     public class GameBoard
     {

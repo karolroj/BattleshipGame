@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Reflection;
 
-namespace warship.Utilities
+namespace WarshipGame.Utilities
 {
     public static class Utilities
     {

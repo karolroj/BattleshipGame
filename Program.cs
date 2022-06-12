@@ -1,5 +1,5 @@
-﻿using warship;
-using warship.Models;
+﻿using WarshipGame;
+using WarshipGame.Models;
 
 namespace WarshipGame
 {

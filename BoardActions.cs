@@ -1,8 +1,9 @@
 ﻿using System.Drawing;
-using warship.Models;
-using warship.Utilities;
+using WarshipGame.Dictionaries;
+using WarshipGame.Models;
+using WarshipGame.Utilities;
 
-namespace warship
+namespace WarshipGame
 {
     public class BoardActions
     {

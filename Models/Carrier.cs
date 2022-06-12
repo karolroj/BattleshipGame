@@ -1,6 +1,6 @@
-﻿using warship.Dictionaries;
+﻿using WarshipGame.Dictionaries;
 
-namespace warship
+namespace WarshipGame.Models
 {
     public class Carrier : Ship
     {

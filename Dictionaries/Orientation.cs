@@ -1,4 +1,4 @@
-﻿namespace warship
+﻿namespace WarshipGame.Dictionaries
 {
     public enum Orientation
     {
